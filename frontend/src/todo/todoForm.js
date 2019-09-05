@@ -14,7 +14,11 @@ export default props => (
     </Grid>
 
     <Grid cols="12 3 2">
-      <Button style="primary" text="Adicionar" />
+      <Button
+        style="primary"
+        text="Adicionar"
+        onClick={props.handleAdd}
+      ></Button>
     </Grid>
   </div>
 )
