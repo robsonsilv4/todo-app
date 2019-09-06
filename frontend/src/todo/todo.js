@@ -42,7 +42,7 @@ export default class Todo extends Component {
   }
 
   handleClear() {
-    this.resfresh(this.refresh)
+    this.resfresh(this.refresh())
   }
 
   handleChange(e) {
