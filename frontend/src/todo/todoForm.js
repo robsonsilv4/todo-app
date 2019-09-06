@@ -21,6 +21,11 @@ export default props => (
         text="Adicionar"
         onClick={props.handleAdd}
       ></Button>
+      <Button
+        style="info"
+        text="Pesquisar"
+        onClick={props.handleSearch}
+      ></Button>
     </Grid>
   </div>
 )
