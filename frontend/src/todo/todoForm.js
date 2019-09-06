@@ -26,6 +26,7 @@ export default props => (
         text="Pesquisar"
         onClick={props.handleSearch}
       ></Button>
+      <Button text="Limpar" onClick={props.handleClear}></Button>
     </Grid>
   </div>
 )
